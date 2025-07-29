@@ -1,0 +1,1 @@
+--protein-key 36mer --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /home/sakhando/projects/def-mh541/sakhando/VA_Fold/36mer/run1/data1 --path-model /home/sakhando/projects/def-mh541/sakhando/VA_Fold/36mer/run1/model1 --T0 6 --seed 111
