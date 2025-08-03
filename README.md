@@ -12,3 +12,5 @@ Please see dependencies.txt
 - To train, for example, on the 20merA sequence with N_anneal=10,000, N_warmup=1000, T0=1.0, seed=111, save the training datae in folderA, trained model in folderB, we run the command below in the command line interface:
 - `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder folderA_path --path-model folderB_path --T0 1 --seed 111`
 
+### Option 2: Run Python Notebook
+- Pass the desired parameters where the vca object is being created and simply run the file.
