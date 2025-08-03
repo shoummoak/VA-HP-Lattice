@@ -10,5 +10,5 @@ Please see dependencies.txt
 ### Option 1: Run from command line
 - main_cli.py and train.py should be in the same folder (unless filepaths are changed within code)
 - To train, for example, on the 20merA sequence with N_anneal=10,000, N_warmup=1000, T0=1.0, seed=111, save the training datae in folderA, trained model in folderB, we run the command below in the command line interface:
-- `--protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /home/data/ --path-model /home/data/ --T0 1 --seed 111`
+- `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder folderA_path --path-model folderB_path --T0 1 --seed 111`
 
