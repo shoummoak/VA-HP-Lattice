@@ -14,11 +14,11 @@ This is the code respository for the research paper titled `Lattice Protein Fold
 ## How to Run Code
 ### Option 1: Run from command line
 - main_cli.py and train.py should be in the same folder (unless filepaths are changed within code)
-- To run the code, we need to specify the protein, annealing steps, warmup steps, training steps
-  - asd
--
--    on the 20merA sequence with N_anneal=10,000, N_warmup=1000, T0=1.0, seed=111, save the training data in folderA, trained model in folderB, we run the command below in the command line interface:
-- `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /.../folderA/ --path-model /.../folderB --T0 1 --seed 111`
+- To run the code, we need to specify the
+  - protein `--protein-key`, number of annealing steps `--n-anneal`, warmup steps `--n-warmup`, training steps at every temperature `--n-train`
+  - directory path where training data will be stored `--path-data-folder` and directory path where trained tensor model will be saved `--path-model`
+- Run `main_cli.py` with arguments as shown below for example:
+  - `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /.../folderA/ --path-model /.../folderB --T0 1 --seed 111`
 
 ### Option 2: Run Python Notebook
 - Pass the desired parameters where the vca object is being created and simply run the file.
