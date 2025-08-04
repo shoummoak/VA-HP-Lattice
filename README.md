@@ -13,8 +13,8 @@ This is the code respository for the research paper titled `Lattice Protein Fold
 
 ## How to Run Code
 ### Option 1: Run from command line
-1. main_cli.py and train.py should be in the same folder (unless filepaths are changed within code)
-2. To run the code, we need to specify the protein, annealing steps, warmup steps, training steps
+- main_cli.py and train.py should be in the same folder (unless filepaths are changed within code)
+- To run the code, we need to specify the protein, annealing steps, warmup steps, training steps
   - asd
 -
 -    on the 20merA sequence with N_anneal=10,000, N_warmup=1000, T0=1.0, seed=111, save the training data in folderA, trained model in folderB, we run the command below in the command line interface:
