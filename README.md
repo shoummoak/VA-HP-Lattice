@@ -20,5 +20,5 @@ This is the code respository for the research paper titled `Lattice Protein Fold
 - Run `main_cli.py` with arguments from the command line interface as shown below for example:
   - `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /.../folderA/ --path-model /.../folderB --T0 1 --seed 111`
 
-### Option 2: Run Python Notebook
+### Option 2: Run Python Notebook (to be added)
 - Pass the desired parameters where the vca object is being created and simply run the file.
