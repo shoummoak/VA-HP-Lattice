@@ -15,8 +15,8 @@ This is the code respository for the research paper titled `Lattice Protein Fold
 ### Option 1: Run from command line
 - main_cli.py and train.py should be in the same folder (unless filepaths are changed within code)
 - To run the code, we need to specify the
-  - protein `--protein-key`, number of annealing steps `--n-anneal`, warmup steps `--n-warmup`, training steps at every temperature `--n-train`
-  - directory path where training data will be stored `--path-data-folder` and directory path where trained tensor model will be saved `--path-model`
+  - protein `--protein-key`, number of annealing steps `--n-anneal`, warmup steps `--n-warmup`, training steps at every temperature `--n-train`, initial temperature `--T0`
+  - directory path where training data will be stored `--path-data-folder` and directory path where trained tensor model will be saved `--path-model`, and seed `--seed`
 - Run `main_cli.py` with arguments as shown below for example:
   - `python main_cli.py --protein-key 20merA --n-warmup 1000 --n-anneal 10000 --n-train 5 --path-data-folder /.../folderA/ --path-model /.../folderB --T0 1 --seed 111`
 
