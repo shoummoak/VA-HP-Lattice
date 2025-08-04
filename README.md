@@ -3,7 +3,7 @@
 This is the code respository for the research paper titled `Lattice Protein Folding with Variational Annealing`. [arxiv](https://arxiv.org/abs/2502.20632), [Journal](https://iopscience.iop.org/article/10.1088/2632-2153/adf376)
 
 ## Code Summary
-- The code is set up to train on one of the HP protein chains listed in `main_cli.py`
+- The code is set up to train on any one of the HP protein chains listed in `main_cli.py`
 - After training, the training data (sampled folds along with their energies and log-probabilities) is saved in the folder specified by the path provided when calling `main_cli.py`
 - 
 
