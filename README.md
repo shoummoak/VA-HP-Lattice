@@ -1,6 +1,6 @@
 # Lattice Protein Folding with Variational Annealing
 
-This is the code respository for the research paper titled `Lattice Protein Folding with Variational Annealing`. Please see <a href="https://arxiv.org/abs/2502.20632" target="_blank">arxiv</a> or <a href="https://iopscience.iop.org/article/10.1088/2632-2153/adf376" target="_blank">Journal</a>.
+This is the code respository for the research paper titled `Lattice Protein Folding with Variational Annealing`. Please see [arxiv](https://arxiv.org/abs/2502.20632) or the [published article](https://iopscience.iop.org/article/10.1088/2632-2153/adf376).
 
 ## Code Summary
 - The code is set up to train on any one of the HP protein chains listed in `main_cli.py`
